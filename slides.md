@@ -33,13 +33,14 @@ layout: cover
 />
 
 ---
-layout: intro
+layout: default
 transition: slide-down
 ---
 
-# Introduccion
+# Introducción
 
 ## ¿Qué son OLAP y OLTP?
+
 - **OLAP** (Procesamiento Analítico en Línea) y **OLTP** (Procesamiento de Transacciones en Línea) son dos tipos fundamentales de sistemas de procesamiento de datos en el mundo de las bases de datos.
 - Ambos sistemas tienen diferentes objetivos y están diseñados para resolver diferentes problemas en el ámbito empresarial.
 
@@ -57,12 +58,15 @@ layout: default
 transition: fade
 ---
 
-## Importancia de OLAP y OLTP en las Empresas
-- **OLAP**: 
+<br>
+
+# Importancia de OLAP y OLTP en las Empresas
+
+## OLAP: 
   - Ayuda en la toma de decisiones al proporcionar vistas multidimensionales de los datos.
-  - Facilita análisis profundos, como tendencias de ventas a lo largo del tiempo o comparaciones de rendimiento entre diferentes regiones.
+  - Facilita análisis profundos, como tendencias de ventas a lo largo del tiempo o comparaciones de rendimiento entre diferentes regiones. 
   
-- **OLTP**:
+## OLTP:
   - Garantiza que las transacciones diarias se procesen de manera eficiente y sin errores.
   - Es esencial para gestionar operaciones diarias, tales como control de inventario, gestión de nómina y mantenimiento de registros de clientes.
 
@@ -186,7 +190,9 @@ transition: fade
 ## Bases de Datos OLTP
 - Prioriza operaciones de escritura de datos.
 - Optimizada para cargas de trabajo con muchas escrituras.
-- Actualiza datos transaccionales de alta frecuencia sin comprometer integridad.
+- Actualiza datos transaccionales de alta frecuencia sin 
+<br>
+comprometer integridad.
 
 <div class="text-right flex">
   <img src="/olapvsoltp.png" class="absolute left-150 top-50 h-65">  
@@ -286,6 +292,55 @@ consulta en función de uno o más campos.
 />
 
 ---
+layout: two-cols-header
+transition: slide-up
+---
+
+<img
+  class="absolute top-0 right-0 w-64 mt-2 mr-2 "
+  src="/logocolor.png"
+/>
+
+<div class=" mt-6 ml-30 mb-6 ">
+
+# Enfoque Analítico vs. Transaccional
+
+</div>
+
+
+<div class=" mt-5 ml-50 mb-5 ">
+<img
+  src="/olap-vs-oltp.webp"
+  class=" w-100 "
+/>
+</div>
+
+
+::left::
+
+## OLAP: Enfoque Analítico
+
+- Enfocado en análisis de datos.
+- Consultas complejas.
+- Consultas de lectura.
+- Consultas de agregación.
+- Consultas de datos históricos.
+- Consultas de grandes volúmenes de datos.
+
+::right::
+
+## OLTP: Enfoque Transaccional
+
+- Enfocado en transacciones.
+- Consultas simples.
+- Consultas de lectura y escritura.
+- Consultas de datos actuales.
+- Consultas de pequeños volúmenes de datos.
+
+
+
+
+---
 layout: image-left
 transition: zoom-in
 image: https://png.pngtree.com/element_our/20190530/ourlarge/pngtree-financial-sales-data-analysis-chart-image_1246005.jpg
@@ -347,6 +402,25 @@ image: https://www.ceupe.com/images/easyblog_articles/2754/beneficio-empresarial
   class="absolute top-0 right-0 w-64 mt-2 mr-2 "
   src="/logocolor.png"
 />
+
+---
+layout: image-left
+transition: slide-down
+image: ecommerce-business-intelligence-tools.jpg
+---
+
+<br>
+
+# Beneficios de las Empresas al Utilizar OLTP
+
+-	Gestión Eficiente de Transacciones.
+-	Operaciones Diarias Fluidas.
+-	Atención al Cliente Mejorada.
+-	Mantenimiento de Registros Precisos.
+-	Automatización de Proceso.
+-	Acceso y Seguridad Controlados.
+
+
 
 ---
 layout: center
@@ -458,6 +532,12 @@ transition: slide-up
 -	https://www.sinnexus.com/business_intelligence/olap_vs_oltp.aspx
 -	https://aws.amazon.com/es/compare/the-difference-between-olap-and-oltp/
 
+<img
+  class="absolute top-0 right-0 w-64 mt-2 mr-2 "
+  src="/logocolor.png"
+/>
+
+
 ---
 layout: center
 transition: slide-up
@@ -475,6 +555,12 @@ transition: slide-up
 ### Consideraciones de Diseño.
 -	Kimball, R., & Ross, M. (2013). The data warehouse toolkit: The definitive guide to dimensional modeling (3rd ed.). John Wiley & Sons.
 -	Silberschatz, A., Korth, H. F., & Sudarshan, S. (2010). Database System Concepts (6th ed.). McGraw-Hill Professional.
+
+
+<img
+  class="absolute top-0 right-0 w-64 mt-2 mr-2 "
+  src="/logocolor.png"
+/>
 
 
 ---
