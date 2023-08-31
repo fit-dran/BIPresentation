@@ -343,7 +343,7 @@ transition: slide-up
 ---
 layout: image-left
 transition: zoom-in
-image: https://png.pngtree.com/element_our/20190530/ourlarge/pngtree-financial-sales-data-analysis-chart-image_1246005.jpg
+image: /pngtree-financial-sales-data-analysis-chart-image_1246005.jpg
 ---
 
 <br>
